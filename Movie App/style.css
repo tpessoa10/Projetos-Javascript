@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(93, 240, 240);
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+}
+
+#movie{
+    margin: 5px;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#movie:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px aliceblue;
+}
+
+#movie img{
+    height: 270px;
+    width: 200px;
+}
+
+#movie p{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+
+main{
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
